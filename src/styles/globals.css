@@ -14,3 +14,53 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.bg-primary {
+  background-color: #212121;
+}
+
+.text-blue {
+  color: #0070f3;
+}
+.text-white {
+  color: #fff;
+}
+
+.center-all-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.center-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #393939;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-red{
+  background-color: crimson;
+  color: #fff;
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.btn-blue{
+  background-color: #0070f3;
+  color: #fff;
+  margin: 1rem;
+  border: none;
+}
